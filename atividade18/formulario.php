@@ -30,17 +30,18 @@
   </div>
 
   
+ <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Telefone</label>
+    <input type="tel" class="form-control" id="exampleInputPassword1" name="telefone">
+  </div>
+ 
+
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Cidade</label>
     <input type="text" class="form-control" id="exampleInputPassword1" name="cidade">
   </div>
 
-  
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Telefone</label>
-    <input type="tel" class="form-control" id="exampleInputPassword1" name="telefone">
-  </div>
- 
+   
   <button type="submit" class="btn btn-primary">Pronto</button>
 </form>
 </body>
