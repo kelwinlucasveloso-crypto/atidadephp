@@ -24,7 +24,7 @@ $cliente = $resultado -> fetch_assoc();
 </head>
 
 <body>
-  <form action="./salvar_funcionario.php" method="POST">
+  <form action="./atualiza_funcionario.php" method="POST">
 
     <h1>funcionario</h1>
 

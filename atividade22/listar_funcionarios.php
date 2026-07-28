@@ -17,8 +17,17 @@ while ($cliente = $resultado->fetch_assoc()) {
     echo "departamento:" . $cliente['departamento'] . "<br>";
     echo "salario:" . $cliente['salario'] . "<br>";
     echo "admissao:" . $cliente['admissao'] . "<br>";
-
+     
+     
+    
+    echo '<a href="formulario22.php?id=' . $cliente['id'] . '">
+        <button>Cadastrar</button>
+      </a>';
     echo '<a href="editar_funcionario.php?id=' . $cliente['id'] . '">
         <button>Editar</button>
+      </a>';
+      
+    echo '<a href="excluir_cliente.php?id=' . $cliente['id'] . '">
+        <button>Excluir</button>
       </a>';
 }
