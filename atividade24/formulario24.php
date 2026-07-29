@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/style25.css">
+    <link rel="stylesheet" href="./css/style24.css">
 </head>
 <body>
-    <form action="./salvar_funcionario.php" method="POST">
+    <form action="./salvar_produtos.php" method="POST">
 
-    <h1>funcionario</h1>
+    <h1>PRODUTOS</h1>
 
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">nome de Completo</label>
@@ -20,21 +20,21 @@
   </div>
 
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">cargo</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" name="cargo" >
+    <label for="exampleInputPassword1" class="form-label">categoria</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" name="categoria" >
   </div>
   
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">departamento</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" name="departamento">
+    <label for="exampleInputPassword1" class="form-label">quantidade</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" name="quantidade">
   </div>
 
   
  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">salario</label>
-    <input type="number" class="form-control" id="exampleInputPassword1" name="salario">
+    <label for="exampleInputPassword1" class="form-label">preco</label>
+    <input type="number" class="form-control" id="exampleInputPassword1" name="preco">
   </div>
-  
+   
   <button type="submit" class="btn btn-primary">Pronto</button>
 </form>
 </body>
